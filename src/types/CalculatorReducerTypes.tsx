@@ -7,5 +7,5 @@ export interface State {
 
 export interface Action {
     type: string;
-    payload: string | number | null;
+    payload?: any;
 }
